@@ -20,7 +20,7 @@
     5) Write a program that receive name of file as first argument.
     The file consisting rows of numbers. Sum all the numbers and write it in the end
     of the file.
-    
+
     6) Write a function that receive list of numbers between 0 to 9. The function 
     return new list that counts a separate amount for each digit.
 
@@ -113,9 +113,10 @@ file = open("c.txt", "r+")
 for line in file:
     sum += int(line)
 
-file.write("\n"+format(str(sum)))
-'''
 
+file.write("\n"+format(str(sum)))
+file.close()
+'''
 
 # // ------ task 6 ------
 '''
